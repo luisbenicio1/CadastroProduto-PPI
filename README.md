@@ -19,11 +19,9 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 
 1.  **Clone o Repositório** (ou baixe os arquivos para uma pasta em seu computador):
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone https://github.com/luisbenicio1/CadastroProduto-PPI.git
     cd seu-repositorio
     ```
-    *Substitua `https://github.com/seu-usuario/seu-repositorio.git` pelo URL do seu repositório.*
-
 2.  **Navegue até a Pasta do Projeto:**
     Se você baixou os arquivos manualmente, navegue até a pasta onde salvou o projeto (ex: `aplicacao-produtos`).
 
