@@ -1,18 +1,3 @@
-## Funcionalidades
-
-* **Login de Usuário:** Sistema de autenticação para acesso restrito.
-* **Gerenciamento de Sessão:** Mantém o usuário logado entre as requisições.
-* **Cadastro de Produtos:** Formulário para adicionar novos produtos (disponível apenas para usuários logados).
-    * Campos: Código de Barras, Descrição, Preço de Custo, Preço de Venda, Data de Validade, Quantidade em Estoque, Nome do Fabricante.
-* **Visualização de Produtos:** Tabela com os produtos já cadastrados, atualizada após cada nova inserção.
-* **Registro de Último Acesso:** Exibe a data e hora do último acesso do usuário ao sistema, utilizando cookies.
-* **Logout:** Permite ao usuário encerrar a sessão.
-
-## Pré-requisitos
-
-Antes de começar, você precisará ter o seguinte software instalado em sua máquina:
-* [Node.js](https://nodejs.org/) (que inclui o npm, o gerenciador de pacotes do Node)
-
 ## Configuração e Instalação
 
 Siga os passos abaixo para configurar e executar o projeto localmente:
