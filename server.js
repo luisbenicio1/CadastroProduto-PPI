@@ -22,17 +22,10 @@ app.use(session(
 app.use(express.static(path.join(__dirname, 'public')));
 
 let users = [
-  { username: 'admin', password: 'password123' } // Usuário de exemplo
+  { username: 'admin', password: 'password123' } 
 ];
 let products = [];
 
-/**
- * Middleware para verificar se o usuário está autenticado.
- * Se não estiver, redireciona para a página de login.
- * @param {object} req - Objeto da requisição Express.
- * @param {object} res - Objeto da resposta Express.
- * @param {function} next - Próxima função de middleware.
- */
 function isAuthenticated(req, res, next)
 {
   if (req.session.user)
@@ -66,7 +59,7 @@ app.post('/login', (req, res) =>
 
       const now = new Date();
       const lastAccess = now.toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' });
-      res.cookie('lastAccess', lastAccess, { maxAge: 900000, httpOnly: true }); // Cookie expira em 15 minutos
+      res.cookie('lastAccess', lastAccess, { maxAge: 900000, httpOnly: true }); 
 
       res.redirect('/cadastro-produto');
     }
