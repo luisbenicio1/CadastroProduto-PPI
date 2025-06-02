@@ -1,0 +1,15 @@
+{
+  "name": "aplicacao-produtos",
+  "version": "1.0.0",
+  "description": "Aplicação para cadastro de produtos com login e sessão.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "cookie-parser": "^1.4.6",
+    "body-parser": "^1.20.1"
+  }
+}
