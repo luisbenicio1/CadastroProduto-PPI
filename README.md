@@ -20,10 +20,10 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 1.  **Clone o Repositório** (ou baixe os arquivos para uma pasta em seu computador):
     ```bash
     git clone https://github.com/luisbenicio1/CadastroProduto-PPI.git
-    cd seu-repositorio
+    cd CadastroProduto-PPI
     ```
 2.  **Navegue até a Pasta do Projeto:**
-    Se você baixou os arquivos manualmente, navegue até a pasta onde salvou o projeto (ex: `aplicacao-produtos`).
+    Se você baixou os arquivos manualmente, navegue até a pasta onde salvou o projeto.
 
 3.  **Instale as Dependências:**
     Abra o terminal na pasta raiz do projeto e execute o seguinte comando para instalar todas as dependências listadas no arquivo `package.json`:
@@ -36,10 +36,6 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 1.  Após a instalação das dependências, inicie o servidor com o comando:
     ```bash
     npm start
-    ```
-    Ou, alternativamente:
-    ```bash
-    node server.js
     ```
 
 2.  O servidor será iniciado na porta `3000` (ou na porta definida em `server.js`). Você verá uma mensagem no console indicando que o servidor está rodando:
@@ -57,5 +53,3 @@ Siga os passos abaixo para configurar e executar o projeto localmente:
 Para fazer login no sistema, utilize as seguintes credenciais de exemplo (definidas em `server.js`):
 * **Usuário:** `admin`
 * **Senha:** `password123`
-
-## Estrutura do Projeto
