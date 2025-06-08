@@ -2,4 +2,7 @@
 
 Para fazer login no sistema, utilize as seguintes credenciais de exemplo (definidas em `server.js`):
 * **Usuário:** `admin`
-* **Senha:** `password123`
+* **Senha:** `admin123`
+
+* **Usuário:** `usuario`
+* **Senha:** `usu123`
